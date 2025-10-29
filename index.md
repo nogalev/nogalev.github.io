@@ -29,9 +29,8 @@ title: Noga Levinson
   </div>
   <div class="callout">
     <p>
-      I bridge molecular design with practical device workflows. Whether I’m tuning nanoscale interlayers, refining spectral
-      analysis notebooks, or setting up lab automations, I aim for clean data, clear visuals, and protocols others can rerun
-      without guesswork.
+      I design new smart material for better and more complex applications within the field of Organic Electronics. 
+      By combining materials with different properties, I can achieve new applications and devices and optimize them.
     </p>
   </div>
 </section>
@@ -44,10 +43,7 @@ title: Noga Levinson
   <div class="tag-grid">
     <span class="tag">Electrochromic thin films</span>
     <span class="tag">Photo-electrochromic device stacks</span>
-    <span class="tag">Graphene-enabled interfaces</span>
-    <span class="tag">Cu(111) preparation strategies</span>
-    <span class="tag">Spectroscopy analytics (Raman · UV-Vis · UPS)</span>
-    <span class="tag">Lab data hygiene &amp; automation</span>
+    <span class="tag">Spectroscopy and electrochemical analytics (Cyclic Voltametry · UV-Vis )</span>
   </div>
 </section>
 
@@ -70,10 +66,6 @@ title: Noga Levinson
       </p>
     </div>
     <div class="card">
-      <h3 class="card__title">Lab infrastructure 🛠️</h3>
-      <p class="card__body">
-        Supporting 2D Generation with organized data archives, instrument IT care, and Python scripts that keep measurements tidy.
-      </p>
     </div>
   </div>
 </section>

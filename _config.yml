@@ -5,7 +5,7 @@ theme: minima
 logo: /assets/avatar.png
 author:
   name: Noga Levinson
-  email: your.email@example.com
+  email: nogalev123@gmail.com
   location: Israel
   affiliations:
     - Weizmann Institute of Science
@@ -15,10 +15,8 @@ author:
     - Materials science
 minima:
   social_links:
-    - { platform: github,  user_url: "https://github.com/yourhandle" }
-    - { platform: linkedin, user_url: "https://www.linkedin.com/in/yourhandle" }
-    - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=XXXX" }
-    - { platform: orcid, user_url: "https://orcid.org/XXXX" }
+    - { platform: github,  user_url: "https://github.com/nogalev" }
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/noga-levinson-47945a1b7/" }
 markdown: kramdown
 permalink: pretty
 plugins:

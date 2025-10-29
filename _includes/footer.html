@@ -13,10 +13,6 @@
               <a href="{{ entry.user_url }}" class="footer-link" target="_blank" rel="noopener">🐙 GitHub</a>
             {% elsif entry.platform == "linkedin" %}
               <a href="{{ entry.user_url }}" class="footer-link" target="_blank" rel="noopener">💼 LinkedIn</a>
-            {% elsif entry.platform == "google_scholar" %}
-              <a href="{{ entry.user_url }}" class="footer-link" target="_blank" rel="noopener">🎓 Scholar</a>
-            {% elsif entry.platform == "orcid" %}
-              <a href="{{ entry.user_url }}" class="footer-link" target="_blank" rel="noopener">🧬 ORCID</a>
             {% endif %}
           {% endfor %}
         {% endif %}

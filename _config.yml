@@ -1,0 +1,24 @@
+title: Noga Levinson
+tagline: Electrochemistry · Organic electronics · Functional thin films
+description: PhD chemist at the Weizmann Institute working on electrochromic thin films, photo-active devices, and graphene-enabled interfaces.
+theme: minima
+logo: /assets/avatar.png
+author:
+  name: Noga Levinson
+  email: nogalev123@gmail.com
+  location: Israel
+  affiliations:
+    - Weizmann Institute of Science
+  roles:
+    - Electrochemistry
+    - Organic electronics
+    - Materials science
+minima:
+  social_links:
+    - { platform: github,  user_url: "https://github.com/nogalev" }
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/noga-levinson-47945a1b7/" }
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag

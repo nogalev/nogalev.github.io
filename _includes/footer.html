@@ -1,0 +1,26 @@
+<footer class="site-footer" role="contentinfo">
+  <div class="wrapper site-footer__inner">
+    <div class="footer-primary">
+      <h2 class="footer-title">Let's stay in touch ✉️</h2>
+      <p class="footer-text">Reach out for collaborations on electrochromic devices, spectroscopy tools, or lab data systems.</p>
+      <div class="footer-links">
+        {% if site.author.email %}
+        <a href="mailto:{{ site.author.email }}" class="footer-link">📧 Email</a>
+        {% endif %}
+        {% if site.minima.social_links %}
+          {% for entry in site.minima.social_links %}
+            {% if entry.platform == "github" %}
+              <a href="{{ entry.user_url }}" class="footer-link" target="_blank" rel="noopener">🐙 GitHub</a>
+            {% elsif entry.platform == "linkedin" %}
+              <a href="{{ entry.user_url }}" class="footer-link" target="_blank" rel="noopener">💼 LinkedIn</a>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      </div>
+    </div>
+    <div class="footer-meta">
+      <span>© {{ site.time | date: "%Y" }} {{ site.author.name | default: site.title }}</span>
+      <span>{{ site.tagline }}</span>
+    </div>
+  </div>
+</footer>

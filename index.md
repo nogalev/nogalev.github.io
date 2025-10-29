@@ -5,24 +5,24 @@ title: Noga Levinson
 
 <div class="hero">
   <p class="hero__eyebrow">Electrochemistry · Organic electronics · Functional thin films</p>
-  <h1 class="hero__title">I build electrochromic and photo-active devices that respond reliably in the lab.</h1>
+  <h1 class="hero__title">I build electrochromic and photo-active devices that respond reliably in the lab. ✨</h1>
   <p class="hero__lede">
     I'm an MSc chemist at the Weizmann Institute translating molecular design into repeatable device behaviour. My recent work
     tunes metal-organic interlayers, light-assisted switching, and graphene-enabled electrodes to push thin-film performance.
   </p>
   <div class="hero__meta">
-    <span>MSc Chemistry · Weizmann Institute of Science</span>
-    <span>Advisors: Prof. Milko van der Boom &amp; Dr. Michal Lahav</span>
+    <span>🎓 MSc Chemistry · Weizmann Institute of Science</span>
+    <span>🧑‍🏫 Advisors: Prof. Milko van der Boom &amp; Dr. Michal Lahav</span>
   </div>
   <div class="hero__actions">
-    <a class="button button--primary" href="/cv/">View CV</a>
-    <a class="button button--ghost" href="/about/">About my work</a>
+    <a class="button button--primary" href="/cv/">📄 View CV</a>
+    <a class="button button--ghost" href="/about/">🔬 About my work</a>
   </div>
 </div>
 
 <section class="section">
   <div class="section__header">
-    <h2 class="section__title">Focus areas</h2>
+    <h2 class="section__title">🎯 Focus areas</h2>
     <p class="section__subtitle">Where chemistry meets device engineering</p>
   </div>
   <div class="tag-grid">
@@ -37,30 +37,30 @@ title: Noga Levinson
 
 <section class="section">
   <div class="section__header">
-    <h2 class="section__title">Current priorities</h2>
+    <h2 class="section__title">🧪 Current priorities</h2>
     <p class="section__subtitle">Practical questions I’m exploring right now</p>
   </div>
   <div class="highlight-grid">
     <div class="card">
-      <h3 class="card__title">Interlayer engineering</h3>
+      <h3 class="card__title">Interlayer engineering ⚙️</h3>
       <p class="card__body">
         Mapping how nanoscale metal-organic barriers control ion transport, contrast, and lifetime in electrochromic stacks.
       </p>
     </div>
     <div class="card">
-      <h3 class="card__title">Device protocols</h3>
+      <h3 class="card__title">Device protocols 📊</h3>
       <p class="card__body">
         Designing test plans, calibration notebooks, and data hygiene loops that keep experiments reproducible.
       </p>
     </div>
     <div class="card">
-      <h3 class="card__title">Light-assisted switching</h3>
+      <h3 class="card__title">Light-assisted switching ☀️</h3>
       <p class="card__body">
         Combining photovoltaic layers with electrochromic modulation for adaptive, low-power surfaces.
       </p>
     </div>
     <div class="card">
-      <h3 class="card__title">Lab infrastructure</h3>
+      <h3 class="card__title">Lab infrastructure 🛠️</h3>
       <p class="card__body">
         Supporting 2D Generation with instrument IT, structured data archives, and lightweight Python automations.
       </p>
@@ -70,7 +70,7 @@ title: Noga Levinson
 
 <section class="section">
   <div class="section__header">
-    <h2 class="section__title">Projects</h2>
+    <h2 class="section__title">🧩 Projects</h2>
     <p class="section__subtitle">Selected research and tooling</p>
   </div>
   {% assign featured_projects = site.projects | sort: "date" | reverse %}
@@ -89,7 +89,7 @@ title: Noga Levinson
 
 <section class="section">
   <div class="section__header">
-    <h2 class="section__title">Publications &amp; writing</h2>
+    <h2 class="section__title">📚 Publications &amp; writing</h2>
     <p class="section__subtitle">Formal outputs and works in progress</p>
   </div>
   {% assign sorted_pubs = site.publications | sort: "year" | reverse %}
@@ -112,10 +112,10 @@ title: Noga Levinson
 
 <section class="section">
   <div class="section__header">
-    <h2 class="section__title">Let’s collaborate</h2>
+    <h2 class="section__title">🤝 Let’s collaborate</h2>
   </div>
   <div class="callout">
-    <strong>Open to conversations</strong> about electrochromic prototyping, spectroscopy analytics, or setting up reliable lab data
-    systems. Reach out via LinkedIn or email and I’ll follow up.
+    <p><strong>Open to conversations</strong> about electrochromic prototyping, spectroscopy analytics, or setting up reliable lab data systems.</p>
+    <p>Reach out via LinkedIn or email and I’ll follow up.</p>
   </div>
 </section>

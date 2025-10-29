@@ -1,6 +1,6 @@
 title: Noga Levinson
-tagline: Electrochemistry - Organic electronics - Advanced functional materials
-description: MSc Chem at the Weizmann Institute - electrochromic thin films, photo-electrochromic devices, DSSCs, graphene, Cu(111)
+tagline: Electrochemistry · Organic electronics · Functional thin films
+description: PhD chemist at the Weizmann Institute working on electrochromic thin films, photo-active devices, and graphene-enabled interfaces.
 theme: minima
 logo: /assets/avatar.png
 author:
@@ -22,13 +22,3 @@ permalink: pretty
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-collections:
-  projects:
-    output: true
-  publications:
-    output: true
-defaults:
-  - scope: { path: "", type: "projects" }
-    values: { layout: page }
-  - scope: { path: "", type: "publications" }
-    values: { layout: page }

@@ -1,0 +1,17 @@
+- role: MSc Researcher - Electrochromic thin films
+  org: Weizmann Institute of Science
+  advisors: Prof. Milko van der Boom - Dr. Michal Lahav
+  location: Rehovot, Israel
+  period: "2023 - 2025"
+  bullets:
+    - Engineered nanoscale metal-organic interlayers for tunable electrochromic response
+    - Built device test protocols and reliability loops
+    - Authored the MSc thesis and prepared figures - methods - SI drafts
+
+- role: IT and Lab Operations - part time
+  org: 2D Generation
+  location: Israel
+  period: "2024 - present"
+  bullets:
+    - Organized lab data - backups - instrument PCs
+    - Set up simple scripts for file naming and data pipelines

@@ -1,0 +1,334 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --page-background: #f4f6fb;
+  --page-gradient: linear-gradient(160deg, #f4f6fb 0%, #f6f9ff 45%, #ffffff 100%);
+  --surface: #ffffff;
+  --surface-muted: #f0f3fb;
+  --surface-border: rgba(31, 50, 108, 0.1);
+  --surface-shadow: 0 18px 40px rgba(31, 50, 108, 0.12);
+  --text-strong: #17233c;
+  --text-base: #2f3b57;
+  --text-soft: #69758f;
+  --accent: #2f6df6;
+  --accent-soft: rgba(47, 109, 246, 0.1);
+  --accent-strong: #1f4dd8;
+}
+
+body {
+  font-family: 'Inter', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background: var(--page-gradient);
+  color: var(--text-base);
+  line-height: 1.7;
+}
+
+a {
+  color: var(--accent-strong);
+}
+
+a:hover {
+  color: var(--accent);
+}
+
+.site-header {
+  background: transparent;
+  border: none;
+  margin-bottom: 1.5rem;
+}
+
+.site-title {
+  color: var(--text-strong);
+  font-weight: 600;
+}
+
+.site-title:visited {
+  color: var(--text-strong);
+}
+
+.site-nav .page-link {
+  color: var(--text-soft);
+  font-weight: 500;
+  padding: 0.2rem 0;
+  border-bottom: 2px solid transparent;
+}
+
+.site-nav .page-link:hover,
+.site-nav .page-link:focus {
+  color: var(--accent-strong);
+  border-bottom-color: var(--accent-strong);
+}
+
+.page-content {
+  padding: 4rem 0 5rem;
+}
+
+.wrapper {
+  max-width: 980px;
+}
+
+.post,
+.home {
+  background: var(--surface);
+  border-radius: 20px;
+  border: 1px solid var(--surface-border);
+  box-shadow: var(--surface-shadow);
+  padding: clamp(2.2rem, 4vw, 3.2rem);
+}
+
+.post-content {
+  margin-top: 1.5rem;
+}
+
+.home {
+  display: grid;
+  gap: 3rem;
+}
+
+.hero {
+  display: grid;
+  gap: 1.6rem;
+}
+
+.hero__eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.28em;
+  font-size: 0.78rem;
+  color: var(--accent-strong);
+}
+
+.hero__title {
+  font-size: clamp(2.4rem, 4vw, 3.3rem);
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--text-strong);
+  margin-bottom: 0.8rem;
+}
+
+.hero__lede {
+  font-size: 1.1rem;
+  max-width: 60ch;
+  color: var(--text-base);
+}
+
+.hero__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  color: var(--text-soft);
+  font-size: 0.95rem;
+}
+
+.hero__meta span {
+  padding: 0.45rem 0.8rem;
+  border-radius: 999px;
+  background: var(--surface-muted);
+  border: 1px solid rgba(31, 50, 108, 0.12);
+}
+
+.hero__actions {
+  display: flex;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+}
+
+.button,
+.hero__actions .button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.68rem 1.4rem;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
+}
+
+.button--primary {
+  background: var(--accent);
+  color: #ffffff;
+  box-shadow: 0 12px 24px rgba(47, 109, 246, 0.25);
+}
+
+.button--primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 16px 32px rgba(47, 109, 246, 0.28);
+}
+
+.button--ghost {
+  color: var(--accent-strong);
+  border: 1px solid rgba(47, 109, 246, 0.35);
+  background: rgba(47, 109, 246, 0.08);
+}
+
+.button--ghost:hover {
+  border-color: var(--accent-strong);
+  background: rgba(47, 109, 246, 0.12);
+}
+
+.section {
+  display: grid;
+  gap: 1.3rem;
+}
+
+.section__header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.section__title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--text-strong);
+}
+
+.section__subtitle {
+  color: var(--text-soft);
+  font-size: 1rem;
+}
+
+.tag-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tag {
+  padding: 0.45rem 0.85rem;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent-strong);
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.highlight-grid,
+.project-grid {
+  display: grid;
+  gap: 1.1rem;
+}
+
+@media (min-width: 720px) {
+  .highlight-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .project-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.card {
+  background: var(--surface-muted);
+  border-radius: 18px;
+  padding: 1.5rem;
+  border: 1px solid rgba(31, 50, 108, 0.08);
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+  color: inherit;
+  text-decoration: none;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(47, 109, 246, 0.35);
+  box-shadow: 0 16px 32px rgba(31, 50, 108, 0.14);
+  text-decoration: none;
+}
+
+.card__title {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--text-strong);
+}
+
+.card__meta {
+  color: var(--text-soft);
+  font-size: 0.9rem;
+  margin-bottom: 0.6rem;
+}
+
+.card__body {
+  color: var(--text-base);
+}
+
+.inline-list,
+.bullet-list {
+  display: grid;
+  gap: 0.6rem;
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.inline-list li,
+.bullet-list li {
+  margin: 0;
+}
+
+.callout {
+  background: rgba(47, 109, 246, 0.08);
+  border-radius: 18px;
+  padding: 1.4rem 1.6rem;
+  border: 1px solid rgba(47, 109, 246, 0.2);
+  color: var(--text-base);
+}
+
+.callout strong {
+  color: var(--accent-strong);
+}
+
+.publication-list {
+  display: grid;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.publication-item {
+  background: var(--surface-muted);
+  border-radius: 16px;
+  padding: 1.2rem 1.4rem;
+  border: 1px solid rgba(31, 50, 108, 0.08);
+}
+
+.publication-item .pub-title {
+  font-weight: 600;
+  color: var(--text-strong);
+}
+
+.publication-item .pub-meta {
+  font-size: 0.9rem;
+  color: var(--text-soft);
+  margin-top: 0.35rem;
+}
+
+.site-footer {
+  background: transparent;
+  border: none;
+  color: var(--text-soft);
+}
+
+.site-footer .footer-heading {
+  color: var(--text-strong);
+}
+
+.site-footer a {
+  color: var(--accent-strong);
+}
+
+@media (max-width: 640px) {
+  .post,
+  .home {
+    padding: 2rem 1.4rem;
+  }
+
+  .hero__title {
+    font-size: 2.25rem;
+  }
+}

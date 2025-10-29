@@ -1,8 +1,11 @@
 # nogalev.github.io
 
-Personal portfolio for Noga Lev. The site is a single-page experience that highlights
-featured work, guiding principles, and ways to connect.
+Personal site for Noga Levinson built with the GitHub Pages `minima` theme.
 
 ## Local development
 
-Open `index.html` in your browser or serve the folder with a static file server of your choice.
+1. Install Ruby and Bundler if you want to build locally.
+2. Run `bundle exec jekyll serve` to start a local preview.
+3. Visit `http://127.0.0.1:4000` to browse the site.
+
+For quick edits you can also push changes directly to GitHub and rely on the Pages build.

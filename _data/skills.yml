@@ -1,0 +1,15 @@
+technical:
+  - Electrochemistry and device testing
+  - Thin-film deposition and patterning
+  - Spectroscopy: Raman - UV-Vis - UPS - basic SEM-EDS workflows
+  - Data - Python - Jupyter - basic signal processing
+  - Lab IT - data hygiene - small automations
+tools:
+  - Python - numpy - pandas - matplotlib
+  - Solidworks or CAD basics - Illustrator or Figma for schematics
+  - Git - GitHub - CI basics
+methods:
+  - Electrochromic device stacks
+  - DSSC assembly and characterization
+  - Graphene integration concepts
+  - Low-temperature single-crystal Cu(111) strategies

@@ -65,8 +65,6 @@ title: Noga Levinson
         Pairing photovoltaic layers with electrochromic modulation to activate devices using ambient illumination.
       </p>
     </div>
-    <div class="card">
-    </div>
   </div>
 </section>
 
